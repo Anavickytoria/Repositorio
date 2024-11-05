@@ -1,15 +1,15 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import hydro from '../assets/arezzo.jpg'
+import arezzo from '../assets/arezzo.jpg'
 
 function Carta() {
   const info=[{
     titulo:'Arezzo',
-    texto:'Video introduction para la empresa de embutidos y chazinados'
+    texto:'Reel publicitario sobre la empresa de embutidos y chazinados'
   }]
   return (
     <Card className='proyecto-card'>
-      <Card.Img variant="top" src={hydro} />
+      <Card.Img variant="top" src={arezzo} />
       <Card.Body>
         <Card.Title>{info[0].titulo}</Card.Title>
         <Card.Text>

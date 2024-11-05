@@ -33,13 +33,13 @@ video {
 }
 
 .foto:hover {
-  filter: drop-shadow(0 0 1em rgb(182, 143, 255));
+  filter: drop-shadow(0 0 1em rgb(88, 57, 145));
   width: 210px;
   height: 210px;
 }
 
 .barra {
-  background-color: rgba(221, 180, 255, 0.658);
+  background-color: rgba(69, 0, 139, 0.658);
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -51,7 +51,7 @@ video {
 
 .letras {
   margin-top: 5%;
-  font-family: "Baskerville", serif;
+  font-family: "Old style", serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -71,19 +71,19 @@ video {
 .about-foto {
   width: 32%;
   border-radius: 10%;
-  border: 5px solid #ecc4ff;
+  border: 5px solid #ae00ff;
   transition: 0.5s ease-in;
   cursor: pointer;
 }
 
 .about-foto:hover {
-  filter: drop-shadow(0 0 1em rgb(169, 160, 255));
+  filter: drop-shadow(0 0 1em rgb(71, 62, 151));
   width: 33%;
 }
 
 .about {
   margin-top: 4%;
-  background-color: rgba(255, 255, 255, 0.411);
+  background-color: rgb(255, 255, 255);
   padding-bottom: 10%;
   display: flex;
   flex-direction: column;
@@ -94,7 +94,7 @@ video {
 }
 
 .about h1 {
-  font-family: "Baskerville", serif;
+  font-family: "Old style", serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -113,7 +113,7 @@ video {
 }
 
 .progreso {
-  background-color: rgb(243, 216, 255);
+  background-color: rgb(159, 96, 255);
 }
 
 .orden2 {
@@ -134,7 +134,7 @@ video {
 }
 
 .servicios h1 {
-  font-family: "Baskerville", serif;
+  font-family: "Old style", serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -151,7 +151,7 @@ video {
 }
 
 .carta {
-  background-color: rgb(255, 222, 242);
+  background-color: rgb(207, 186, 255);
   border-radius: 5%;
   width: 94%; 
   height: 12.5rem;
@@ -166,7 +166,7 @@ video {
 }
 
 .movida {
-  background-color: rgba(243, 203, 255, 0.822);
+  background-color: rgba(193, 149, 255, 0.822);
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -181,7 +181,7 @@ video {
   width: 100%;
   height: 300px;
   background-image: url('./assets/wave.svg');
-  background-color: rgba(236, 172, 255, 0.315);
+  background-color: rgba(185, 115, 255, 0.315);
   background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
   background-repeat: no-repeat; /* Evita que la imagen se repita */
   background-position: center; /* Centra la imagen en el contenedor */
@@ -194,7 +194,7 @@ video {
 
 
 .fondo {
-  background-color: #f5d6ff;
+  background-color: #a48eff;
   width: 100%;
   height: 200px;
   padding: 10%;
@@ -215,7 +215,7 @@ video {
 }
 
 .contacto {
-  background-color: #ffe4ff54;
+  background-color: #b623ff54;
   display: flex;
   color: #000000;
   justify-content: center;
@@ -225,7 +225,7 @@ video {
 }
 
 .contacto h1 {
-  font-family: "Baskerville", serif;
+  font-family: "Old style", serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -247,7 +247,7 @@ video {
 }
 
 .info h2 {
-  font-family: "Baskerville", serif;
+  font-family: "Old style", serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -362,7 +362,7 @@ input:hover {
       width: 70%; /* Ajusta el tamaño para pantallas pequeñas */
   }
   .about-foto:hover {
-    filter: drop-shadow(0 0 1em rgb(220, 189, 255));
+    filter: drop-shadow(0 0 1em rgb(165, 103, 235));
     width: 72%;
   }
   .cartas{

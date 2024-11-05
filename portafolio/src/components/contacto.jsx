@@ -1,11 +1,12 @@
 import Button from 'react-bootstrap/Button';
 import { FaInstagram } from "react-icons/fa";
-import hydro from '../assets/bichito.gif';
+import flor from '../assets/flor.gif';
+
 function Contacto() {
     const info=[{
         texto:'Estoy disponible a cualquier tipo de oportunidades!',
-        email:'almasorbera11@gmail.com',
-        numero:'3541521902',
+        email:'anavictoriamartinez100@gmail.com',
+        numero:'3549502418',
         ubicación:'Carlos Paz, Cordoba, Argentina'
       }]
     return(
@@ -33,9 +34,9 @@ function Contacto() {
             </div>
             <div className='linea'></div>
             <div>
-            <img className='foton' src={hydro}></img>
+            <img className='foton' src={flor}></img>
             <a href='https://www.instagram.com/arezzopascanas/?hl=es' className='ig'><FaInstagram /></a>
-            <img className='foton'src={hydro}></img>
+            <img className='foton'src={flor}></img>
             </div>
         </div>
     )
